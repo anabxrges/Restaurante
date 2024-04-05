@@ -16,7 +16,7 @@
         <!--
 - favicon 
 -->
-        <link rel="shortcut icon" href="./favicon.svg" type="image/svg*xml" />
+        <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
 
         <!--
 - google font link
@@ -38,10 +38,39 @@
 - preload images
 -->
 
-<link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
-<link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
-<link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
-
+        <link
+            rel="preload"
+            as="image"
+            href="./assets/images/hero-slider-1.jpg"
+        />
+        <link
+            rel="preload"
+            as="image"
+            href="./assets/images/hero-slider-2.jpg"
+        />
+        <link
+            rel="preload"
+            as="image"
+            href="./assets/images/hero-slider-3.jpg"
+        />
     </head>
-    <body></body>
+    <body>
+        <!--
+      - custom js link
+      -->
+        <script src="./assets/js/script.js"></script>
+
+        <!--
+      - ionicon link
+      -->
+
+        <script
+            type="module"
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+            nomodule
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+        ></script>
+    </body>
 </html>
