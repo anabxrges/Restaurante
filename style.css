@@ -179,6 +179,8 @@ body {
     overflow: hidden;
 }
 
+body.loaded { overflow:overlay; }
+
 /*-----------------------------------*\
   #TYPOGRAPHY
 \*-----------------------------------*/
