@@ -121,7 +121,10 @@
     box-sizing: border-box;
 }
 
-li { list-style: none; } a,
+li {
+    list-style: none;
+}
+a,
 img,
 data,
 span,
@@ -212,17 +215,15 @@ body.nav-active {
 \*-----------------------------------*/
 
 .preload {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: var(--gold-crayola);
-  
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--gold-crayola);
+    z-index: 10;
+    display: grid;
 }
-
-
-
 
 /*-----------------------------------*\
   #TOPBAR
