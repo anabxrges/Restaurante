@@ -228,31 +228,37 @@ body.nav-active {
     transition: var(--transition-2);
 }
 
-.preload > * { transition: var(--transition-1); }
+.preload > * {
+    transition: var(--transition-1);
+}
 
-.preload.loaded > * { opacity: 0; }
+.preload.loaded > * {
+    opacity: 0;
+}
 
 .preload.loaded {
-  transition-delay: 250ms;
-  transform: translateY (100%);
+    transition-delay: 250ms;
+    transform: translateY (100%);
 }
 
 .circle {
-  width: 112px;
-  height: 112px;
-  border-radius: var(--radius-circle);
-  border: 3px solid var(--white);
-  border-block-start-color: var(--smoky-black-3);
-  margin-block-end: 45px;
-  animation: rotate360 1s linear infinite;
+    width: 112px;
+    height: 112px;
+    border-radius: var(--radius-circle);
+    border: 3px solid var(--white);
+    border-block-start-color: var(--smoky-black-3);
+    margin-block-end: 45px;
+    animation: rotate360 1s linear infinite;
 }
 
-@heyframes rotate360 {
-  0% { transform: rotate (0); }
-  100% { transform: rotate (iturn); }
+@keyframes rotate360 {
+    0% {
+        transform: rotate (0);
+    }
+    100% {
+        transform: rotate (iturn);
+    }
 }
-
-
 
 /*-----------------------------------*\
   #TOPBAR
