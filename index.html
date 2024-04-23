@@ -1,66 +1,94 @@
 <!DOCTYPE html>
 <html lang="pt-Br">
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Grilli - Amazing and Delicious Food</title>
-    <!-- 
-    - primary meta tags
-  -->
+    <!-- Meta tags -->
     <meta name="title" content="Grilli - Amazing and Delicious Food" />
     <meta
       name="description"
-      content="This is a Restaurant html template made by codewithsadee"
+      content="This is a Restaurant HTML template made by codewithsadee"
     />
-
-    <!--
-- favicon 
--->
+    <!-- Favicon -->
     <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
-
-    <!--
-- google font link
--->
-
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap"
       rel="stylesheet"
     />
-
-    <!--
-- custom css link
--->
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="./assets/css/style.css" />
-
-    <!--
-- preload images
--->
-
-    <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg" />
-    <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg" />
-    <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg" />
   </head>
   <body>
-    <!--
-     - PRELOADER
-     -->
-
+    <!-- Preloader -->
     <div class="preload" data-preload>
       <div class="circle"></div>
-      <p class="">Grilli</p>
+      <p>Grilli</p>
     </div>
-
-    <!--
-      - custom js link
-      -->
+    <!-- Top Bar -->
+    <div class="top-bar">
+      <div class="container">
+        <address class="topbar-item">
+          <div class="icon">
+            <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+            <span class="span"
+              >Restaurant St, Delicious City, London 9578, UK</span
+            >
+          </div>
+        </address>
+        <div class="separator"></div>
+        <div class="topbar-item-2">
+          <div class="icon">
+            <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+          </div>
+          <span class="span">Daily: 8.00 am to 10.00 pm</span>
+        </div>
+        <div class="separator"></div>
+        <div class="topbar-item">
+          <a href="tel:+11234567890" class="icon">
+            <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+          </a>
+          <span class="span">+1 123 456 7890</span>
+        </div>
+        <div class="separator"></div>
+        <div class="topbar-item">
+          <a href="mailto:booking@restaurant.com" class="icon">
+            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+          </a>
+          <span class="span">booking@restaurant.com</span>
+        </div>
+      </div>
+    </div>
+    <!-- Header -->
+    <header class="header" data-header>
+      <div class="container">
+        <button class="close-btn" aria-label="Close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/logo.svg"
+            width="160"
+            height="50"
+            alt="Grilli - Home"
+          />
+        </a>
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#" class="navbar-link hover-underline active">Home</a>
+            </li>
+            <!-- Other navbar items go here -->
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Custom JavaScript -->
     <script src="./assets/js/script.js"></script>
-
-    <!--
-      - ionicon link
-      -->
-
+    <!-- Ionicons -->
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
