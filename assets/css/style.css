@@ -242,7 +242,7 @@ body.nav-active {
 
 .preload.loaded {
   transition-delay: 250ms;
-  transform: translateY (100%);
+  transform: translateY(100%);
 }
 
 .circle {
@@ -257,10 +257,10 @@ body.nav-active {
 
 @keyframes rotate360 {
   0% {
-    transform: rotate (0);
+    transform: rotate(0);
   }
   100% {
-    transform: rotate (iturn);
+    transform: rotate(iturn);
   }
 }
 
